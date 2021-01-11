@@ -32,7 +32,6 @@ class _WrapTagsState extends State<WrapTags> {
                 border: Border.all(color: Colors.black),
             ),
             child: Wrap(
-              direction: Axis.horizontal,
               spacing: 10,
               runSpacing: 20.0,
               alignment: WrapAlignment.start,

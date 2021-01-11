@@ -87,9 +87,15 @@ Widget build(BuildContext context) {
 
 Imatges:
 
-![Imatge1](/ruta/a/la/imagen.jpg)
-![Imatge2](/ruta/a/la/imagen.jpg)
-![Imatge3](/ruta/a/la/imagen.jpg)
+![Imatge1](https://github.com/mromerobos/wrap_widget_demo/blob/main/imatges/Captura1.PNG)
+![Imatge2](https://github.com/mromerobos/wrap_widget_demo/blob/main/imatges/Captura2.PNG)
+![Imatge3](https://github.com/mromerobos/wrap_widget_demo/blob/main/imatges/Captura3.PNG)
+
+Video penjat a Youtube:
+
+[Demo Wrap](https://youtu.be/s43UfLWf7kA)
+
+
 
 ## Referències
 

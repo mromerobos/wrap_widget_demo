@@ -1,8 +1,14 @@
-# wrap
+# Wrap Widget
 
-A new Flutter project.
+El widget [Wrap](https://api.flutter.dev/flutter/widgets/Wrap-class.html) s'utilitza per encapsular un conjunt de fills sense preocuparte dels limits horitzontals i verticals. 
 
-## Getting Started
+Es poden utilitzar diferents atributs per definir la organització dels fills i els marges entre ells.
+
+## Utilitat i ús
+
+Aquest es un bon Widget per solucionar els problemes de overflow que a vegades podrueixen les columnes i files.
+
+## Atributs i implementació
 
 This project is a starting point for a Flutter application.
 

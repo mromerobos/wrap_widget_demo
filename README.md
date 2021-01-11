@@ -23,7 +23,8 @@ Aquests atributs son els que ajudaran a distribuir els widgets de la forma que v
 
 ## Implementació
 
-`Wrap(
+```dart
+Wrap(
    spacing: 8.0, // gap between adjacent chips
    runSpacing: 4.0, // gap between lines
    children: <Widget>[
@@ -44,14 +45,16 @@ Aquests atributs son els que ajudaran a distribuir els widgets de la forma que v
        label: Text('Laurens'),
      ),
    ],
- )`
+ )
+```
  *Exemple de la documentació oficial*
  
 El widget Wrap funciona a partir d'una llista de Widgets per mostrar, utilitzant els atributs esmentats anteriorment pots decidir la seva organització.
 S'ha de tenir en compte que la seva mida és irregular per tant es millor posar aquest widget dins components de mida variable. 
 
 En el meu cas l'he posat dins un scrollChildView per que no hi hagi problemes de overflow vertical:
-` Widget build(BuildContext context) {
+```dart
+Widget build(BuildContext context) {
      return SingleChildScrollView(
        child: Column(
          crossAxisAlignment: CrossAxisAlignment.start,
@@ -77,16 +80,19 @@ En el meu cas l'he posat dins un scrollChildView per que no hi hagi problemes de
            )
          ],
        ),
-     );`
+     );
+```
 
+## Demo, imatges i video
 
-This project is a starting point for a Flutter application.
+Imatges:
 
-A few resources to get you started if this is your first Flutter project:
+![Imatge1](/ruta/a/la/imagen.jpg)
+![Imatge2](/ruta/a/la/imagen.jpg)
+![Imatge3](/ruta/a/la/imagen.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Referències
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Wrap Class](https://api.flutter.dev/flutter/widgets/Wrap-class.html)
+- [Wrap (Flutter Widget of the Week)](https://www.youtube.com/watch?v=z5iw2SeFx2M)
+

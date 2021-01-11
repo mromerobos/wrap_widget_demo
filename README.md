@@ -10,6 +10,10 @@ Es poden utilitzar diferents atributs per definir la organització dels fills i 
 
 Aquest és un bon Widget per solucionar els problemes de overflow que a vegades produeixen les columnes i files.
 
+## Visió Personal
+
+Crec que el Wrap widget és situacional, que només ajuda a solucionar casos concrets. Sempre s'ha de mirar en quin cas et trobes i veure quin es el millor widget a fer servir.
+
 ## Atributs i implementació
 
 Els atributs més importants són:

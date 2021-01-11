@@ -11,7 +11,7 @@ class WrapTags extends StatefulWidget {
 class _WrapTagsState extends State<WrapTags> {
 
   int idCounter = 0;
-  List<TagWidget> widgetList = [];
+  List<TagWidget> widgetList = new List<TagWidget>();
 
   @override
   Widget build(BuildContext context) {
